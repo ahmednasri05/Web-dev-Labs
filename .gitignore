@@ -1,0 +1,81 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist/
+/build/
+
+# Vite
+.vite/
+
+# Misc
+.env
+.env.*
+*.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Others
+*.tgz
+*.zip
+*.bak
+*.tmp
+
+# Ignore package-lock and yarn lock if not needed
+# package-lock.json
+yarn.lock
+
+# Ignore data files
+*.csv
+*.tsv
+*.sqlite
+*.db
+*.bak
+*.swp
+
+# Ignore by lab folders (if needed)
+Lab*/node_modules/
+Lab*/dist/
+Lab*/build/
+Lab*/.env
+Lab*/.DS_Store
+Lab*/Thumbs.db
+Lab*/.vscode/
+Lab*/.idea/
+Lab*/coverage/
+Lab*/*.log
+Lab*/*.zip
+Lab*/*.bak
+Lab*/*.tmp
+Lab*/*.swp
+
+udemy-clone/node_modules/
+udemy-clone/dist/
+udemy-clone/build/
+udemy-clone/.env
+udemy-clone/.DS_Store
+udemy-clone/Thumbs.db
+udemy-clone/.vscode/
+udemy-clone/.idea/
+udemy-clone/coverage/
+udemy-clone/*.log
+udemy-clone/*.zip
+udemy-clone/*.bak
+udemy-clone/*.tmp
+udemy-clone/*.swp
